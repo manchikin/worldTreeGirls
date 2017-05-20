@@ -31,7 +31,7 @@ Scene_HomeBase.prototype.createPlaceWindow = function () {
 }
 
 Scene_HomeBase.prototype.drawPlace = function () {
-    this._placeWindow.drawText(this._placeWindowConf.name, this._placeWindowConf.mesx, this._placeWindowConf.mesy, this._placeWindowConf.meswid, this._placeWindowConf.align);
+    this._placeWindow.drawText(this._placeName, this._placeWindowConf.mesx, this._placeWindowConf.mesy, this._placeWindowConf.meswid, this._placeWindowConf.align);
 }
 
 Scene_HomeBase.prototype.update = function() {
