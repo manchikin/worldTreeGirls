@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="270050cb-0e7f-455b-bc76-8b3e4d28bd50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins.js" afterPath="$PROJECT_DIR$/plugins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Scene_HomeBase.js" afterPath="$PROJECT_DIR$/plugins/Scene_HomeBase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Scene_Map_Custom.js" afterPath="$PROJECT_DIR$/plugins/Scene_Map_Custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Window_HomeCommand.js" afterPath="$PROJECT_DIR$/plugins/Window_HomeCommand.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +22,8 @@
       <file leaf-file-name="Scene_HomeBase.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/Scene_HomeBase.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="480">
+              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -32,8 +32,8 @@
       <file leaf-file-name="Scene_Map_Custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/Scene_Map_Custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -42,7 +42,7 @@
       <file leaf-file-name="Window_MapStat.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/Window_MapStat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="0">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
@@ -52,7 +52,7 @@
       <file leaf-file-name="Scene_Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/Scene_Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="0">
               <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
@@ -62,8 +62,18 @@
       <file leaf-file-name="rpg_windows.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpg_windows.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-243">
-              <caret line="2530" column="23" lean-forward="true" selection-start-line="2530" selection-start-column="23" selection-end-line="2530" selection-end-column="23" />
+            <state relative-caret-position="22">
+              <caret line="5716" column="9" lean-forward="false" selection-start-line="5716" selection-start-column="9" selection-end-line="5716" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rpg_managers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpg_managers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1450" column="9" lean-forward="false" selection-start-line="1450" selection-start-column="9" selection-end-line="1450" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -72,8 +82,8 @@
       <file leaf-file-name="Window_HomeCommand.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/Window_HomeCommand.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="242">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,8 +92,8 @@
       <file leaf-file-name="rpg_objects.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpg_objects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="4779" column="23" lean-forward="true" selection-start-line="4779" selection-start-column="23" selection-end-line="4779" selection-end-column="23" />
+            <state relative-caret-position="2807">
+              <caret line="4786" column="0" lean-forward="true" selection-start-line="4786" selection-start-column="0" selection-end-line="4786" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,8 +102,8 @@
       <file leaf-file-name="rpg_scenes.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rpg_scenes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1005">
-              <caret line="235" column="9" lean-forward="false" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
+            <state relative-caret-position="277">
+              <caret line="313" column="38" lean-forward="false" selection-start-line="313" selection-start-column="38" selection-end-line="313" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -156,13 +166,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/rpg_windows.js" />
-        <option value="$PROJECT_DIR$/plugins/Scene_HomeBase.js" />
         <option value="$PROJECT_DIR$/plugins/Window_MapStatus.js" />
         <option value="$PROJECT_DIR$/plugins/Scene_Home.js" />
-        <option value="$PROJECT_DIR$/rpg_scenes.js" />
-        <option value="$PROJECT_DIR$/plugins/Window_HomeCommand.js" />
         <option value="$PROJECT_DIR$/plugins/Window_MapStat.js" />
         <option value="$PROJECT_DIR$/plugins/Scene_Map_Custom.js" />
+        <option value="$PROJECT_DIR$/plugins/Scene_HomeBase.js" />
+        <option value="$PROJECT_DIR$/plugins/Window_HomeCommand.js" />
+        <option value="$PROJECT_DIR$/rpg_scenes.js" />
       </list>
     </option>
   </component>
@@ -173,8 +183,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="284" />
-    <option name="y" value="97" />
+    <option name="x" value="181" />
+    <option name="y" value="79" />
     <option name="width" value="1560" />
     <option name="height" value="1102" />
   </component>
@@ -231,7 +241,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="Scene_T&#9;null&#9;null&#10;gamepar&#9;null&#9;null&#10;Window_Sta&#9;null&#9;null&#10;Scene_Map&#9;null&#9;null&#10;Scene_MA&#9;FILE&#9;file://C:/Users/ts/Documents/Games/WorldTreeGirls/js/plugins/Scene_Map_Custom.js&#10;Window_&#9;null&#9;null&#10;drawTe&#9;null&#9;null&#10;Window_base&#9;null&#9;null&#10;new Window&#9;ACTION&#9;EditSourceInNewWindow&#10;Window_ba&#9;null&#9;null&#10;GameMess&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Scene_Ti&#9;null&#9;null&#10;choicelist&#9;null&#9;null&#10;Scene_T&#9;null&#9;null&#10;gamepar&#9;null&#9;null&#10;Window_Sta&#9;null&#9;null&#10;Scene_Map&#9;null&#9;null&#10;Scene_MA&#9;FILE&#9;file://C:/Users/ts/Documents/Games/WorldTreeGirls/js/plugins/Scene_Map_Custom.js&#10;Window_&#9;null&#9;null&#10;drawTe&#9;null&#9;null&#10;Window_base&#9;null&#9;null&#10;new Window&#9;ACTION&#9;EditSourceInNewWindow&#10;Window_ba&#9;null&#9;null&#10;GameMess&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -327,20 +338,21 @@
       <option name="presentableId" value="Default" />
       <updated>1495234481331</updated>
       <workItem from="1495234482540" duration="7584000" />
-      <workItem from="1495242874541" duration="3489000" />
+      <workItem from="1495242874541" duration="5375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11073000" />
+    <option name="totallyTimeSpent" value="12959000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="284" y="97" width="1560" height="1102" extended-state="0" />
+    <frame x="181" y="79" width="1560" height="1102" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296371" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -352,7 +364,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -451,66 +462,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/Window_HomeCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpg_windows.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="2530" column="23" lean-forward="true" selection-start-line="2530" selection-start-column="23" selection-end-line="2530" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/Scene_HomeBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Scene_Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="0">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpg_objects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="4779" column="23" lean-forward="true" selection-start-line="4779" selection-start-column="23" selection-end-line="4779" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Window_MapStat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="0">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_objects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2807">
+          <caret line="4786" column="0" lean-forward="true" selection-start-line="4786" selection-start-column="0" selection-end-line="4786" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Scene_Map_Custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Scene_HomeBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Window_HomeCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_managers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1450" column="9" lean-forward="false" selection-start-line="1450" selection-start-column="9" selection-end-line="1450" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_windows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5716" column="9" lean-forward="false" selection-start-line="5716" selection-start-column="9" selection-end-line="5716" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rpg_scenes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1005">
-          <caret line="235" column="9" lean-forward="false" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
+        <state relative-caret-position="277">
+          <caret line="313" column="38" lean-forward="false" selection-start-line="313" selection-start-column="38" selection-end-line="313" selection-end-column="38" />
           <folding />
         </state>
       </provider>

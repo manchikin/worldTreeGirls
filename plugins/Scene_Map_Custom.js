@@ -9,6 +9,7 @@
     }
 
     var _createDisplayObjects = Scene_Map.prototype.createDisplayObjects;
+
     Scene_Map.prototype.createDisplayObjects = function () {
         _createDisplayObjects.call(this);
         this.createStatusWindow();
@@ -16,13 +17,11 @@
     }
 
     Scene_Map.prototype.createStatusWindow = function () {
-        // this.createSpWindow = new Window_SpAp();
         this._statusWindow = new Window_MapStatus(this.statusWindowConf.x, this.statusWindowConf.y, this.statusWindowConf.width, this.statusWindowConf.height);
         this.addChild(this._statusWindow);
     }
 
     Scene_Map.prototype.drawMapStatus = function () {
-        // console.log(.hp);
         this.drawActorName();
         this.drawActorHp();
     }

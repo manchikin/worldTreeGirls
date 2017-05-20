@@ -18,6 +18,7 @@ Scene_HomeBase.prototype.createAllWindows = function() {
     // this.createHomeCommandWindow();
     this.createPlaceWindow();
     this.drawPlace();
+    this.createHomeCommandWindow();
 };
 
 Scene_HomeBase.prototype.createHomeCommandWindow = function() {
