@@ -1,5 +1,7 @@
 /**
  * Created by ts on 2017/05/20.
+ *
+ * 画面下に表示する、プレーヤーの簡易ステータスのウィンドウ
  */
 function Window_MapStatus() {
     this.initialize.apply(this, arguments);

@@ -23,8 +23,9 @@
 	var _Scene_Boot_initialize = Scene_Boot.prototype.initialize;
 	Scene_Boot.prototype.initialize = function() {
 		_Scene_Boot_initialize.call(this);
-		jsName = "BootConsole";
+		var jsName = "BootConsole";
 		var isAutoBoot = Number(PluginManager.parameters(jsName)["consoleAutoBoot"]) || 1;
+		console.log(PluginManager.parameters(jsName));
 		var bootPosition = PluginManager.parameters(jsName)["consolePosition"].split(",");
 		if (Utils.isNwjs() && Utils.isOptionValid('test') && isAutoBoot) {
 			var gui = require('nw.gui');

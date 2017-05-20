@@ -10,8 +10,14 @@ Window_HomeCommand.prototype.initialize = function(x, y, width, height) {
     this.activate();
 }
 
-Window_TitleCommand.prototype.makeCommandList = function() {
-    this.addCommand(TextManager.newGame,   'newGame');
-    this.addCommand(TextManager.continue_, 'continue', this.isContinueEnabled());
-    this.addCommand(TextManager.options,   'options');
+Window_HomeCommand.prototype.makeCommandList = function() {
+    this.addCommand(CommandConst.Home_toInn    , 'inn');
+    this.addCommand(CommandConst.Home_toShop   , 'shop');
+    this.addCommand(CommandConst.Home_toGuild  , 'guild');
+    this.addCommand(CommandConst.Home_toDungeon, 'dungeon');
+};
+
+Window_HomeCommand.prototype.processOk = function() {
+    Window_HomeCommand._lastCommandSymbol = this.currentSymbol();
+    Window_Command.prototype.processOk.call(this);
 };
