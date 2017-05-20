@@ -13,4 +13,3 @@ Window_MapStatus.prototype.initialize = function(x, y, width, height) {
     this.refresh();
     this.activate();
 };
-
