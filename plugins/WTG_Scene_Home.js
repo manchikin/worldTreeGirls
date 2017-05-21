@@ -6,8 +6,10 @@ Scene_Home.prototype = Object.create(Scene_HomeBase.prototype);
 Scene_Home.prototype.constructor = Scene_Home;
 
 Scene_Home.prototype.initialize = function() {
-    Scene_HomeBase.prototype.initialize.call(this);
-    this._placeName = PlaceConst.Home;
+  Scene_HomeBase.prototype.initialize.call(this);
+	this._placeName = PlaceConst.Home;
+	this._parallax  = "BlueSky";
+	this._standPic  = "Slime";
 };
 
 Scene_Home.prototype.createAllWindows = function() {

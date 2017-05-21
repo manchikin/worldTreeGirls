@@ -9909,6 +9909,8 @@ Game_Interpreter.prototype.command231 = function() {
         x = $gameVariables.value(this._params[4]);
         y = $gameVariables.value(this._params[5]);
     }
+		console.log([this._params[0], this._params[1], this._params[2],
+				x, y, this._params[6], this._params[7], this._params[8], this._params[9]]);
     $gameScreen.showPicture(this._params[0], this._params[1], this._params[2],
         x, y, this._params[6], this._params[7], this._params[8], this._params[9]);
     return true;

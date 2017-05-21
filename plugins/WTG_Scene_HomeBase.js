@@ -14,9 +14,30 @@ Scene_HomeBase.prototype.constructor = Scene_HomeBase;
 
 Scene_HomeBase.prototype.initialize = function() {
     Scene_Map.prototype.initialize.call(this);
-    this._placeWindowConf = {x:    0, y:    0, width:  Graphics.boxWidth, height: 72, name: "",
-                                  mesx: 0, mesy: 0, meswid: Graphics.boxWidth - 48, align: "left"};
+		this._commandWindow = {};
+		this._parallax      = "Mountains1";
+		this._standPic      = ""; // 仮　素材のimg/picturesフォルダの中から
 };
+
+Scene_HomeBase.prototype.create = function() {
+	Scene_Map.prototype.create.call(this);
+	this.createBackGround();
+	this.createStandPicture();
+}
+
+Scene_HomeBase.prototype.createStandPicture = function () {
+	if (this._standPic === "") return;
+	$gameScreen.showPicture(PictureConst.Stand1, this._standPic, 0,
+		 Graphics.boxWidth, PictureConst.Stand1_y, 100, 100, 255, 0); // 初期表示時は画面外
+}
+
+Scene_HomeBase.prototype.showStandPicture = function (pictureId, x, y) {
+	$gameScreen.movePicture(pictureId, 0, x, y, 100, 100, 255, 0, PictureConst.StandWaitFrame);
+}
+
+Scene_HomeBase.prototype.createBackGround = function () {
+	$gameMap.changeParallax(this._parallax, false, false, 0, 0);
+}
 
 Scene_HomeBase.prototype.createAllWindows = function() {
     Scene_Map.prototype.createAllWindows.call(this);
@@ -26,14 +47,23 @@ Scene_HomeBase.prototype.createAllWindows = function() {
 };
 
 Scene_HomeBase.prototype.createPlaceWindow = function () {
-    this._placeWindow = new Window_Base(this._placeWindowConf.x, this._placeWindowConf.y, this._placeWindowConf.width, this._placeWindowConf.height);
+    this._placeWindow = new Window_Base(WindowConst.Place_x, WindowConst.Place_y, WindowConst.Place_width, WindowConst.Place_height);
     this.addChild(this._placeWindow);
 }
 
 Scene_HomeBase.prototype.drawPlace = function () {
-    this._placeWindow.drawText(this._placeName, this._placeWindowConf.mesx, this._placeWindowConf.mesy, this._placeWindowConf.meswid, this._placeWindowConf.align);
+    this._placeWindow.drawText(this._placeName, 0, 0, 200, "left");
 }
 
 Scene_HomeBase.prototype.update = function() {
-    Scene_Map.prototype.update.call(this);
+    Scene_Map.prototype.update.call(this); // 200は仮　場所名が入りきるならなんでも良い
+		if (!this.isMessageShowing()) this.refreshScreen();
 };
+
+Scene_HomeBase.prototype.isMessageShowing = function () {
+	return !$gameMessage.hasText() && !this._commandWindow.active;
+}
+
+Scene_HomeBase.prototype.refreshScreen = function () {
+	this._commandWindow.activate();
+}

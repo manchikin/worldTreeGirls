@@ -10,6 +10,16 @@ Scene_Base.prototype.update = function () {
 }
 
 Scene_Base.prototype.debugAction = function () {
+	// this.damageAll();
+	this.screenPicture();
+}
+
+Scene_Base.prototype.screenPicture = function () {
+	$gameScreen.movePicture(1, 0, 300, 300, 100,
+	                                             100, 255, 0, 10);
+}
+
+Scene_Base.prototype.damageAll = function () {
 	$gameParty.members().forEach(function(actor) {
 		actor.gainHp(-50);
 	});

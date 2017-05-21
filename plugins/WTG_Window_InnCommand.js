@@ -12,6 +12,7 @@ Window_InnCommand.prototype.initialize = function(width, height) {
 
 Window_InnCommand.prototype.makeCommandList = function() {
     this.addCommand(CommandConst.Inn_Rest        , 'rest');
+    this.addCommand(CommandConst.HomeBase_Talk   , 'talk');
     this.addCommand(CommandConst.HomeBase_toHome , 'home');
 };
 
