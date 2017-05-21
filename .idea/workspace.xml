@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="270050cb-0e7f-455b-bc76-8b3e4d28bd50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Scene_HomeBase.js" afterPath="$PROJECT_DIR$/plugins/Scene_HomeBase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Scene_Map_Custom.js" afterPath="$PROJECT_DIR$/plugins/Scene_Map_Custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Window_HomeCommand.js" afterPath="$PROJECT_DIR$/plugins/Window_HomeCommand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins.js" afterPath="$PROJECT_DIR$/plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/WTG_Const.js" afterPath="$PROJECT_DIR$/plugins/WTG_Const.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/WTG_Scene_Home.js" afterPath="$PROJECT_DIR$/plugins/WTG_Scene_Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/WTG_Scene_HomeBase.js" afterPath="$PROJECT_DIR$/plugins/WTG_Scene_HomeBase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/WTG_Scene_Inn.js" afterPath="$PROJECT_DIR$/plugins/WTG_Scene_Inn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/WTG_Scene_Map_Custom.js" afterPath="$PROJECT_DIR$/plugins/WTG_Scene_Map_Custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/WTG_Window_HomeCommand.js" afterPath="$PROJECT_DIR$/plugins/WTG_Window_HomeCommand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rpg_objects.js" afterPath="$PROJECT_DIR$/rpg_objects.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,72 +25,90 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Scene_HomeBase.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/Scene_HomeBase.js">
+      <file leaf-file-name="WTG_Scene_ShopStreet.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/WTG_Scene_ShopStreet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="493">
+              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!doc;n#Scene_ShopStreet#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WTG_ItemList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/WTG_ItemList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc;n#ItemList#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WTG_Window_ShopStreet.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/WTG_Window_ShopStreet.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc;n#Window_ShopStreetCommand#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WTG_Window_InnCommand.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/WTG_Window_InnCommand.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scene_Map_Custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/Scene_Map_Custom.js">
+      <file leaf-file-name="WTG_Scene_Home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/WTG_Scene_Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WTG_Window_HomeCommand.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/WTG_Window_HomeCommand.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Window_MapStat.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/Window_MapStat.js">
+      <file leaf-file-name="Game_Interpreter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/Game_Interpreter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="158">
+              <caret line="1388" column="52" lean-forward="true" selection-start-line="1388" selection-start-column="52" selection-end-line="1388" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scene_Home.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/Scene_Home.js">
+      <file leaf-file-name="WTG_Scene_HomeBase.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/WTG_Scene_HomeBase.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rpg_windows.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpg_windows.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="5716" column="9" lean-forward="false" selection-start-line="5716" selection-start-column="9" selection-end-line="5716" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rpg_managers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpg_managers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1450" column="9" lean-forward="false" selection-start-line="1450" selection-start-column="9" selection-end-line="1450" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Window_HomeCommand.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/Window_HomeCommand.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="211">
+              <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,18 +116,18 @@
       <file leaf-file-name="rpg_objects.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpg_objects.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2807">
-              <caret line="4786" column="0" lean-forward="true" selection-start-line="4786" selection-start-column="0" selection-end-line="4786" selection-end-column="0" />
+            <state relative-caret-position="409">
+              <caret line="10164" column="26" lean-forward="true" selection-start-line="10164" selection-start-column="26" selection-end-line="10164" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rpg_scenes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rpg_scenes.js">
+      <file leaf-file-name="WTG_Scene_Map_Custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/WTG_Scene_Map_Custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="313" column="38" lean-forward="false" selection-start-line="313" selection-start-column="38" selection-end-line="313" selection-end-column="38" />
+            <state relative-caret-position="810">
+              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -120,35 +144,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Scene_Map</find>
-      <find>Window_SideMenu</find>
-      <find>n</find>
-      <find>new ()</find>
-      <find>new (</find>
-      <find>new</find>
-      <find>new W</find>
-      <find>new Wi</find>
-      <find>new Wind</find>
-      <find>new Window</find>
-      <find>new Window_Me</find>
-      <find>new Window_M</find>
-      <find>Scene_HomeBase</find>
-      <find>new Window_</find>
-      <find>G</find>
-      <find>Graphi</find>
-      <find>Graphics.o</find>
-      <find>Graphics.</find>
-      <find>Graphics.b</find>
-      <find>Graphics.box</find>
-      <find>Graphics.boxW</find>
-      <find>Graphics.boxWi</find>
-      <find>Graphics.boxWid</find>
-      <find>Graphics.boxWidth</find>
-      <find>Graphics.boxWidth</find>
-      <find>Graphics.boxWidth =</find>
-      <find>_statusWindow</find>
       <find>_placeWindow</find>
       <find>Window_Status</find>
+      <find>ne</find>
+      <find>new wi</find>
+      <find>new win</find>
+      <find>new window me</find>
+      <find>new window m</find>
+      <find>new window</find>
+      <find>new window</find>
+      <find>new window_me</find>
+      <find>new window_mes</find>
+      <find>new window_messa</find>
+      <find>new window_messag</find>
+      <find>new window_message</find>
+      <find>is</find>
+      <find>isopen</find>
+      <find>ｓ</find>
+      <find>しょｗ</find>
+      <find>show</find>
+      <find>showsta</find>
+      <find>showstand</find>
+      <find>showstandp</find>
+      <find>showstandpi</find>
+      <find>showstandpicu</find>
+      <find>showstandpic</find>
+      <find>Scene_Inn</find>
+      <find>Inn</find>
+      <find>Game_Interpreter.prototype.command302</find>
+      <find>shop</find>
+      <find>Shop</find>
     </findStrings>
     <replaceStrings>
       <replace>Scene_HomeBase</replace>
@@ -157,6 +182,9 @@
       <replace>_placeWindow</replace>
       <replace>_placeWindowConf</replace>
       <replace>Window_MapStatus</replace>
+      <replace>Scene_Shop</replace>
+      <replace>Shop</replace>
+      <replace>ShopStreet</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -173,6 +201,17 @@
         <option value="$PROJECT_DIR$/plugins/Scene_HomeBase.js" />
         <option value="$PROJECT_DIR$/plugins/Window_HomeCommand.js" />
         <option value="$PROJECT_DIR$/rpg_scenes.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_Scene_Map_Custom.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_Scene_HomeBase.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_Scene_Inn.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_Scene_Shop.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_Window_ShopStreet.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_Window_HomeCommand.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_Scene_Home.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_Const.js" />
+        <option value="$PROJECT_DIR$/rpg_objects.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_ItemList.js" />
+        <option value="$PROJECT_DIR$/plugins/WTG_Scene_ShopStreet.js" />
       </list>
     </option>
   </component>
@@ -183,8 +222,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="181" />
-    <option name="y" value="79" />
+    <option name="x" value="303" />
+    <option name="y" value="76" />
     <option name="width" value="1560" />
     <option name="height" value="1102" />
   </component>
@@ -206,6 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,14 +274,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="Scene_Ti&#9;null&#9;null&#10;choicelist&#9;null&#9;null&#10;Scene_T&#9;null&#9;null&#10;gamepar&#9;null&#9;null&#10;Window_Sta&#9;null&#9;null&#10;Scene_Map&#9;null&#9;null&#10;Scene_MA&#9;FILE&#9;file://C:/Users/ts/Documents/Games/WorldTreeGirls/js/plugins/Scene_Map_Custom.js&#10;Window_&#9;null&#9;null&#10;drawTe&#9;null&#9;null&#10;Window_base&#9;null&#9;null&#10;new Window&#9;ACTION&#9;EditSourceInNewWindow&#10;Window_ba&#9;null&#9;null&#10;GameMess&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="windowMe&#9;null&#9;null&#10;Gamemessa&#9;null&#9;null&#10;GameMe&#9;null&#9;null&#10;Scene_Ti&#9;null&#9;null&#10;choicelist&#9;null&#9;null&#10;Scene_T&#9;null&#9;null&#10;gamepar&#9;null&#9;null&#10;Window_Sta&#9;null&#9;null&#10;Scene_Map&#9;null&#9;null&#10;Scene_MA&#9;FILE&#9;file://C:/Users/ts/Documents/Games/WorldTreeGirls/js/plugins/Scene_Map_Custom.js&#10;Window_&#9;null&#9;null&#10;drawTe&#9;null&#9;null&#10;Window_base&#9;null&#9;null&#10;new Window&#9;ACTION&#9;EditSourceInNewWindow&#10;Window_ba&#9;null&#9;null&#10;GameMess&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunDashboard">
@@ -338,18 +377,19 @@
       <option name="presentableId" value="Default" />
       <updated>1495234481331</updated>
       <workItem from="1495234482540" duration="7584000" />
-      <workItem from="1495242874541" duration="5375000" />
+      <workItem from="1495242874541" duration="5562000" />
+      <workItem from="1495366414499" duration="3172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12959000" />
+    <option name="totallyTimeSpent" value="16318000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="181" y="79" width="1560" height="1102" extended-state="0" />
+    <frame x="303" y="76" width="1560" height="1102" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19689119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296371" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -380,6 +420,78 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/plugins/Scene_HomeBase.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Scene_Map_Custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Window_MapStat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Scene_Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_windows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125752">
+          <caret line="5716" column="9" lean-forward="false" selection-start-line="5716" selection-start-column="9" selection-end-line="5716" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_managers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31856">
+          <caret line="1450" column="9" lean-forward="false" selection-start-line="1450" selection-start-column="9" selection-end-line="1450" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Window_HomeCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_objects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105248">
+          <caret line="4786" column="0" lean-forward="true" selection-start-line="4786" selection-start-column="0" selection-end-line="4786" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_scenes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6842">
+          <caret line="313" column="38" lean-forward="false" selection-start-line="313" selection-start-column="38" selection-end-line="313" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Scene_HomeBase.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding />
@@ -406,9 +518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42704">
           <caret line="2512" column="0" lean-forward="false" selection-start-line="2512" selection-start-column="0" selection-end-line="2525" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Scene_Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="220">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
         </state>
@@ -472,16 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Window_MapStat.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpg_objects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2807">
-          <caret line="4786" column="0" lean-forward="true" selection-start-line="4786" selection-start-column="0" selection-end-line="4786" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -496,7 +598,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/Scene_HomeBase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="528">
           <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
           <folding />
         </state>
@@ -512,25 +614,139 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rpg_managers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1450" column="9" lean-forward="false" selection-start-line="1450" selection-start-column="9" selection-end-line="1450" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpg_windows.js">
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Scene_Inn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5716" column="9" lean-forward="false" selection-start-line="5716" selection-start-column="9" selection-end-line="5716" selection-end-column="9" />
+        <state relative-caret-position="348">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rpg_scenes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="313" column="38" lean-forward="false" selection-start-line="313" selection-start-column="38" selection-end-line="313" selection-end-column="38" />
+        <state relative-caret-position="321">
+          <caret line="556" column="37" lean-forward="false" selection-start-line="556" selection-start-column="37" selection-end-line="556" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_windows.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="148" column="46" lean-forward="true" selection-start-line="148" selection-start-column="46" selection-end-line="148" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Window_MapStat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Const.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Scene_Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Scene_HomeBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="52" column="21" lean-forward="true" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Window_HomeCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/Game_Interpreter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="1388" column="52" lean-forward="true" selection-start-line="1388" selection-start-column="52" selection-end-line="1388" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpg_objects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="10164" column="26" lean-forward="true" selection-start-line="10164" selection-start-column="26" selection-end-line="10164" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Window_InnCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Window_ShopStreet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc;n#Window_ShopStreetCommand#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Scene_Map_Custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_ItemList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc;n#ItemList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/WTG_Scene_ShopStreet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc;n#Scene_ShopStreet#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

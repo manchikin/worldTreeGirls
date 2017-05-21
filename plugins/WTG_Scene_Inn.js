@@ -38,7 +38,10 @@ Scene_Inn.prototype.commandRest = function () {
 Scene_Inn.prototype.commandTalk = function () {
 	// TODO 勿論モック
 	this.showStandPicture(PictureConst.Stand1, PictureConst.Stand1_x, PictureConst.Stand1_y);
+	this.hideStatusWindow();
 	$gameMessage.add("ここは宿屋です");
+	$gameMessage.add("寝泊りができます\f");
+	$gameMessage.add("文章3");
 }
 
 Scene_Inn.prototype.commandHome = function () {

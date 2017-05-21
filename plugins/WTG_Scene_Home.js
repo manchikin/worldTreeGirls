@@ -20,7 +20,7 @@ Scene_Home.prototype.createAllWindows = function() {
 Scene_Home.prototype.createHomeCommandWindow = function() {
   this._commandWindow = new Window_HomeCommand(WindowConst.HomeCommand_width, WindowConst.HomeCommand_height);
   this._commandWindow.setHandler('inn',  this.commandInn.bind(this));
-  // this._commandWindow.setHandler('shop', this.commandShop.bind(this));
+  this._commandWindow.setHandler('shop', this.commandShop.bind(this));
   // this._commandWindow.setHandler('guild',  this.commandGuild.bind(this));
   // this._commandWindow.setHandler('dungeon',  this.commandDungeon.bind(this));
   this.addWindow(this._commandWindow);
@@ -28,4 +28,8 @@ Scene_Home.prototype.createHomeCommandWindow = function() {
 
 Scene_Home.prototype.commandInn = function() {
     SceneManager.goto(Scene_Inn);
+};
+
+Scene_Home.prototype.commandShop = function() {
+    SceneManager.goto(Scene_ShopStreet);
 };

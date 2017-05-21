@@ -14,9 +14,10 @@ Scene_HomeBase.prototype.constructor = Scene_HomeBase;
 
 Scene_HomeBase.prototype.initialize = function() {
     Scene_Map.prototype.initialize.call(this);
-		this._commandWindow = {};
-		this._parallax      = "Mountains1";
-		this._standPic      = ""; // 仮　素材のimg/picturesフォルダの中から
+	this._commandWindow = {};
+	this._parallax      = "Mountains1";
+	this._standPic      = ""; // 仮　素材のimg/picturesフォルダの中から
+    this._isStandPictureShowing = false;
 };
 
 Scene_HomeBase.prototype.create = function() {
@@ -33,6 +34,12 @@ Scene_HomeBase.prototype.createStandPicture = function () {
 
 Scene_HomeBase.prototype.showStandPicture = function (pictureId, x, y) {
 	$gameScreen.movePicture(pictureId, 0, x, y, 100, 100, 255, 0, PictureConst.StandWaitFrame);
+	this._isStandPictureShowing = true;
+}
+
+Scene_HomeBase.prototype.hideStandPicture = function (pictureId) {
+    // 1000は暫定的対応　見切れればなんでもいい
+    $gameScreen.movePicture(pictureId, 0, 1000, PictureConst.Stand1_y, 100, 100, 255, 0, PictureConst.StandWaitFrame);
 }
 
 Scene_HomeBase.prototype.createBackGround = function () {
@@ -52,16 +59,19 @@ Scene_HomeBase.prototype.createPlaceWindow = function () {
 }
 
 Scene_HomeBase.prototype.drawPlace = function () {
-    this._placeWindow.drawText(this._placeName, 0, 0, 200, "left");
+    this._placeWindow.drawText(this._placeName, 0, 0, 200, "left");// 200は仮　場所名が入りきるならなんでも良い
 }
 
 Scene_HomeBase.prototype.update = function() {
-    Scene_Map.prototype.update.call(this); // 200は仮　場所名が入りきるならなんでも良い
-		if (!this.isMessageShowing()) this.refreshScreen();
+    Scene_Map.prototype.update.call(this);
+    if (this.hasMessage()) return;
+	this.refreshScreen();
+	this.showStatusWindow();
+	if (this._isStandPictureShowing) this.hideStandPicture(1); // TODO モック用に暫定的に1 後々いろいろなIDのを消せるよう修正
 };
 
-Scene_HomeBase.prototype.isMessageShowing = function () {
-	return !$gameMessage.hasText() && !this._commandWindow.active;
+Scene_HomeBase.prototype.hasMessage = function () {
+	return $gameMessage.hasText() && !this._commandWindow.active && !this._messageWindow.isClosing();
 }
 
 Scene_HomeBase.prototype.refreshScreen = function () {

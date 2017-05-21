@@ -10166,6 +10166,8 @@ Game_Interpreter.prototype.command302 = function() {
             goods.push(this.currentCommand().parameters);
         }
         SceneManager.push(Scene_Shop);
+        console.log(goods);
+        console.log(this._params[4]);
         SceneManager.prepareNextScene(goods, this._params[4]);
     }
     return true;

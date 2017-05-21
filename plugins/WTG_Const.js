@@ -14,11 +14,12 @@ function CommandConst() {
 Object.defineProperties(CommandConst, {
     HomeBase_toHome       : {value: "拠点へ"},
     HomeBase_Talk         : {value: "会話"},
-    Home_toShop           : {value: "商店街"},
+    Home_toShopStreet     : {value: "商店街"},
     Home_toGuild          : {value: "ギルド"},
     Home_toInn            : {value: "宿屋"},
     Home_toDungeon        : {value: "ダンジョンへ"},
     Inn_Rest              : {value: "休む"},
+    ShopStreet_Buy        : {value: "売買"},
 })
 
 function WindowConst() {
@@ -30,16 +31,18 @@ WindowConst.graphicWidth = function() {
 };
 
 Object.defineProperties(WindowConst, {
-		Place_x            : {value: 0},
-		Place_y            : {value: 0},
-		Place_width        : {value: WindowConst.graphicWidth()},
-		Place_height       : {value: 72},
-		HomeBaseCommand_x  : {value: 0},
-		HomeBaseCommand_y  : {value: 100},
-		HomeCommand_width  : {value: 200},
-		HomeCommand_height : {value: 300},
-		InnCommand_width   : {value: 200},
-		InnCommand_height  : {value: 100},
+		Place_x                   : {value: 0},
+		Place_y                   : {value: 0},
+		Place_width               : {value: WindowConst.graphicWidth()},
+		Place_height              : {value: 72},
+		HomeBaseCommand_x         : {value: 0},
+		HomeBaseCommand_y         : {value: 100},
+		HomeCommand_width         : {value: 200},
+		HomeCommand_height        : {value: 300},
+		InnCommand_width          : {value: 200},
+		InnCommand_height         : {value: 100},
+        ShopStreetCommand_width   : {value: 200},
+        ShopStreetCommand_height  : {value: 100},
 })
 
 function PlaceConst() {
@@ -49,6 +52,7 @@ function PlaceConst() {
 Object.defineProperties(PlaceConst, {
     Home       : {value: "拠点"},
     Inn        : {value: "宿"},
+    ShopStreet : {value: "商店街"},
 })
 
 function PictureConst() {

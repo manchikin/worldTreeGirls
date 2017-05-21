@@ -45,3 +45,11 @@ Scene_Map.prototype.refreshStatus = function () {
   this._statusWindow.contents.clear();
   this.drawMapStatus();
 }
+
+Scene_Map.prototype.hideStatusWindow = function () {
+    this._statusWindow.hide();
+}
+
+Scene_Map.prototype.showStatusWindow = function () {
+    this._statusWindow.show();
+}
