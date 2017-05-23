@@ -22,7 +22,7 @@ Scene_Home.prototype.createHomeCommandWindow = function() {
   this._commandWindow.setHandler('inn',  this.commandInn.bind(this));
   this._commandWindow.setHandler('shop', this.commandShop.bind(this));
   // this._commandWindow.setHandler('guild',  this.commandGuild.bind(this));
-  // this._commandWindow.setHandler('dungeon',  this.commandDungeon.bind(this));
+  this._commandWindow.setHandler('dungeon',  this.commandDungeon.bind(this));
   this.addWindow(this._commandWindow);
 }
 
@@ -32,4 +32,10 @@ Scene_Home.prototype.commandInn = function() {
 
 Scene_Home.prototype.commandShop = function() {
     SceneManager.goto(Scene_ShopStreet);
+};
+
+Scene_Home.prototype.commandDungeon = function() {
+    $gameDungeon.parallax = "Mountains2"; // TODO 暫定対応
+    $gameVariables.setValue(1, 200);
+    SceneManager.goto(Scene_Dungeon);
 };

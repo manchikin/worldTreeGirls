@@ -6,14 +6,20 @@ var $plugins =
 {"name":"WTG_BootConsole","status":true,"description":"コンソールオート起動用プラグイン","parameters":{"consoleAutoBoot":"1","consolePosition":"100, 50"}},
 {"name":"WTG_Const","status":true,"description":"","parameters":{}},
 {"name":"WTG_Debug","status":true,"description":"","parameters":{}},
+{"name":"WTG_Game_SPAP","status":true,"description":"","parameters":{}},
+{"name":"WTG_Game_Dungeon","status":true,"description":"","parameters":{}},
+{"name":"WTG_ItemList","status":true,"description":"","parameters":{}},
+{"name":"WTG_Scene_AllBase","status":true,"description":"","parameters":{}},
 {"name":"WTG_Scene_HomeBase","status":true,"description":"","parameters":{}},
 {"name":"WTG_Scene_Home","status":true,"description":"","parameters":{}},
 {"name":"WTG_Scene_Inn","status":true,"description":"","parameters":{}},
 {"name":"WTG_Scene_Map_Custom","status":true,"description":"","parameters":{}},
+{"name":"WTG_Scene_ShopStreet","status":true,"description":"","parameters":{}},
+{"name":"WTG_Scene_Dungeon","status":true,"description":"","parameters":{}},
 {"name":"WTG_Window_HomeCommand","status":true,"description":"","parameters":{}},
 {"name":"WTG_Window_InnCommand","status":true,"description":"","parameters":{}},
 {"name":"WTG_Window_MapStat","status":true,"description":"","parameters":{}},
-{"name":"WTG_Scene_ShopStreet","status":true,"description":"","parameters":{}},
 {"name":"WTG_Window_ShopStreet","status":true,"description":"","parameters":{}},
-{"name":"WTG_ItemList","status":true,"description":"","parameters":{}}
+{"name":"WTG_Window_DungeonCommand","status":true,"description":"","parameters":{}},
+{"name":"WTG_Window_SPAP","status":true,"description":"","parameters":{}}
 ];

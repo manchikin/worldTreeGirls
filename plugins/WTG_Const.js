@@ -20,29 +20,39 @@ Object.defineProperties(CommandConst, {
     Home_toDungeon        : {value: "ダンジョンへ"},
     Inn_Rest              : {value: "休む"},
     ShopStreet_Buy        : {value: "売買"},
+    Dungeon_Explore       : {value: "進行"},
+    Dungeon_Search        : {value: "探索"},
+    Dungeon_Escape        : {value: "撤退"},
+    Dungeon_Menu          : {value: "メニュー"},
 })
 
 function WindowConst() {
   throw new Error('This is a static class');
 }
 
-WindowConst.graphicWidth = function() {
-    return Graphics.boxWidth || 816;
-};
 
+// 参考　横幅816 縦幅624
 Object.defineProperties(WindowConst, {
 		Place_x                   : {value: 0},
 		Place_y                   : {value: 0},
-		Place_width               : {value: WindowConst.graphicWidth()},
+		Place_width               : {value: 650},
 		Place_height              : {value: 72},
+		Status_x                  : {value: 18},
+		Status_y                  : {value: 430},
+		Status_width              : {value: 550},
+		Status_height             : {value: 624 - 450},
 		HomeBaseCommand_x         : {value: 0},
 		HomeBaseCommand_y         : {value: 100},
-		HomeCommand_width         : {value: 200},
+		HomeCommand_width         : {value: 160},
 		HomeCommand_height        : {value: 300},
-		InnCommand_width          : {value: 200},
+		InnCommand_width          : {value: 160},
 		InnCommand_height         : {value: 100},
-        ShopStreetCommand_width   : {value: 200},
+        ShopStreetCommand_width   : {value: 160},
         ShopStreetCommand_height  : {value: 100},
+        DungeonCommand_x          : {value: 500},
+        DungeonCommand_y          : {value: 400},
+        DungeonCommand_width      : {value: 100},
+        DungeonCommand_height     : {value: 100},
 })
 
 function PlaceConst() {

@@ -5,7 +5,6 @@ var _initialize = Scene_Map.prototype.initialize;
 
 Scene_Map.prototype.initialize = function () {
     _initialize.call(this);
-    this.statusWindowConf = {x: 120, y: 450, width: 600, height: Graphics.boxHeight - 450};
 }
 
 var _createDisplayObjects = Scene_Map.prototype.createDisplayObjects;
@@ -17,7 +16,7 @@ Scene_Map.prototype.createDisplayObjects = function () {
 }
 
 Scene_Map.prototype.createStatusWindow = function () {
-    this._statusWindow = new Window_MapStatus(this.statusWindowConf.x, this.statusWindowConf.y, this.statusWindowConf.width, this.statusWindowConf.height);
+    this._statusWindow = new Window_MapStatus(WindowConst.Status_x, WindowConst.Status_y, WindowConst.Status_width, WindowConst.Status_height);
     this.addChild(this._statusWindow);
 }
 
