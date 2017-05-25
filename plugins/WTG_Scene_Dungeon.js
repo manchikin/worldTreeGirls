@@ -19,6 +19,7 @@ Scene_Dungeon.prototype.constructor = Scene_Dungeon;
 
 Scene_Dungeon.prototype.initialize = function() {
     Scene_AllBase.prototype.initialize.call(this);
+    $gameDungeon.initMembers();
     this._parallax = $gameDungeon.parallax;
 };
 
@@ -37,16 +38,24 @@ Scene_Dungeon.prototype.createSPAPWindow = function() {
 }
 
 Scene_Dungeon.prototype.drawSPAP = function() {
+    this._SPAPWindow.contents.clear();
     this._SPAPWindow.drawText("SP" + $gameSp.getValue(), 0, 0, 200, "left") // TODO 暫定　Constに設定すること
 }
 
 Scene_Dungeon.prototype.createDungeonCommandWindow = function () {
     this._commandWindow = new Window_DungeonCommand(WindowConst.DungeonCommand_width, WindowConst.DungeonCommand_height);
-    this._commandWindow.setHandler('escape',  this.commandEscape.bind(this));
+    this._commandWindow.setHandler('explore',  this.commandExplore.bind(this));
+    this._commandWindow.setHandler('return' ,  this.commandReturn.bind(this));
     this.addWindow(this._commandWindow);
 }
-Scene_Dungeon.prototype.commandEscape = function() {
-    SceneManager.goto(Scene_Home);
+Scene_Dungeon.prototype.commandReturn = function() {
+    $gameDungeon.setPhase("return");
+}
+
+Scene_Dungeon.prototype.commandExplore = function() {
+    $gameSp.setValue($gameSp.getValue() - $gameSp.getReduceValue());
+    this.refreshWindows();
+    $gameDungeon.setPhase("explore");
 }
 
 Scene_Dungeon.prototype.createPlaceWindow = function () {
@@ -69,5 +78,9 @@ Scene_Dungeon.prototype.update = function() {
     this.refreshScreen();
     this.showStatusWindow();
     if (this._isStandPictureShowing) this.hideStandPicture(1); // TODO モック用に暫定的に1 後々いろいろなIDのを消せるよう修正
+    $gameDungeon.update();
 };
 
+Scene_Dungeon.prototype.refreshWindows = function() {
+    this.drawSPAP();
+}

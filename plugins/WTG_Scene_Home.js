@@ -24,7 +24,7 @@ Scene_Home.prototype.createHomeCommandWindow = function() {
   // this._commandWindow.setHandler('guild',  this.commandGuild.bind(this));
   this._commandWindow.setHandler('dungeon',  this.commandDungeon.bind(this));
   this.addWindow(this._commandWindow);
-}
+};
 
 Scene_Home.prototype.commandInn = function() {
     SceneManager.goto(Scene_Inn);
@@ -35,7 +35,6 @@ Scene_Home.prototype.commandShop = function() {
 };
 
 Scene_Home.prototype.commandDungeon = function() {
-    $gameDungeon.parallax = "Mountains2"; // TODO 暫定対応
-    $gameVariables.setValue(1, 200);
+    $gameVariables.setValue(1, 5);// TODO 暫定的に5(テストプレイしやすいよう)
     SceneManager.goto(Scene_Dungeon);
 };

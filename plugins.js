@@ -21,5 +21,6 @@ var $plugins =
 {"name":"WTG_Window_MapStat","status":true,"description":"","parameters":{}},
 {"name":"WTG_Window_ShopStreet","status":true,"description":"","parameters":{}},
 {"name":"WTG_Window_DungeonCommand","status":true,"description":"","parameters":{}},
-{"name":"WTG_Window_SPAP","status":true,"description":"","parameters":{}}
+{"name":"WTG_Window_SPAP","status":true,"description":"","parameters":{}},
+{"name":"WTG_Data_Dungeon","status":true,"description":"","parameters":{}}
 ];

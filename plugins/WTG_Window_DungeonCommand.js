@@ -17,7 +17,7 @@ Window_DungeonCommand.prototype.initialize = function(width, height) {
 Window_DungeonCommand.prototype.makeCommandList = function() {
     this.addCommand(CommandConst.Dungeon_Explore   , 'explore');
     this.addCommand(CommandConst.Dungeon_Search    , 'search');
-    this.addCommand(CommandConst.Dungeon_Escape    , 'escape');
+    this.addCommand(CommandConst.Dungeon_Escape    , 'return');
 };
 
 Window_DungeonCommand.prototype.processOk = function() {
